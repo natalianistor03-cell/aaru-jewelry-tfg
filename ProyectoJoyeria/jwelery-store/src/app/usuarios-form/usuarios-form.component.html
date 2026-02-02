@@ -1,0 +1,16 @@
+<h2>Crear Usuario</h2>
+
+<form (ngSubmit)="crearUsuario()" #usuarioForm="ngForm">
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" name="nombre" [(ngModel)]="nuevoUsuario.nombre" required />
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" name="email" [(ngModel)]="nuevoUsuario.email" required type="email" />
+  </div>
+
+  <button type="submit" [disabled]="usuarioForm.invalid">Crear</button>
+</form>
+

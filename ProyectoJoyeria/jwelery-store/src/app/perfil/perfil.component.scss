@@ -1,0 +1,146 @@
+.perfil-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-image: url('/assets/img/hero-banner1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 70px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Playfair Display', serif;
+}
+
+.perfil-title {
+  font-size: 2rem;
+  color: #b9962e;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.perfil-foto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  display: block;
+  border: 3px solid #b9962e;
+}
+
+.perfil-info p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #a7851f;
+}
+
+.perfil-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #a7851f;
+}
+
+.perfil-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.perfil-pedidos h3 {
+  color: #a7851f;
+}
+
+.btn-gold {
+  background-color: #b9962e;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #a7851f;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.perfil-pedidos {
+  margin-top: 2rem;
+}
+
+.tabla-pedidos,
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+thead {
+  background: #fdf6e3;
+  th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #a99e7f;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+}
+
+tbody {
+  tr {
+    transition: backgorund 0.3s ease;
+    &:nth-child(even) {
+      background: #fff8e1;
+    }
+    &:hover {
+      background: #333;
+    }
+  }
+
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.estado-pendiente {
+  color: orange;
+  font-weight: bold;
+}
+
+.estado-enviado {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.estado-entregado {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.detalle-pedido-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+

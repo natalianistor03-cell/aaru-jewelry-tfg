@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\proyectojoyeria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:proyectojoyeria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\proyectojoyeria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:proyectojoyeria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\pedidoproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\pedidoproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\data\\joyeriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:data\\joyeriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\migrations\\20251113190136_modelocompleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:migrations\\20251113190136_modelocompleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\productocheckoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\productocheckoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\pedidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\pedidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\pedidodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\pedidodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|c:\\users\\nattn\\documents\\tfg\\proyectojoyeria\\backend\\models\\pedidoresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA97ED5-7A55-F3C5-A2F6-7925E3D95C11}|ProyectoJoyeria.csproj|solutionrelative:models\\pedidoresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoProductos.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoProductos.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoProductos.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoProductos.cs",
+              "RelativeToolTip": "Models\\PedidoProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:07:47.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:04:38.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProyectoJoyeria.csproj",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\ProyectoJoyeria.csproj",
+              "RelativeDocumentMoniker": "ProyectoJoyeria.csproj",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\ProyectoJoyeria.csproj",
+              "RelativeToolTip": "ProyectoJoyeria.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-18T19:34:12.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\ProyectoJoyeria.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoJoyeria.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\ProyectoJoyeria.Api\\Program.cs",
+              "RelativeToolTip": "ProyectoJoyeria.Api\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:26:56.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:45:31.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\CheckoutDTO.cs",
+              "RelativeToolTip": "Models\\CheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:10:09.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:38:34.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\LoginDto.cs",
+              "RelativeToolTip": "Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T19:20:16.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:12:02.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\Pedido.cs",
+              "RelativeToolTip": "Models\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:07:48.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwCQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:12:38.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PedidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoDTO.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoDTO.cs",
+              "RelativeToolTip": "Models\\PedidoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:13:37.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JoyeriaContext.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Data\\JoyeriaContext.cs",
+              "RelativeDocumentMoniker": "Data\\JoyeriaContext.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Data\\JoyeriaContext.cs",
+              "RelativeToolTip": "Data\\JoyeriaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:11:51.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20251113190136_ModeloCompleto.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Migrations\\20251113190136_ModeloCompleto.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251113190136_ModeloCompleto.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Migrations\\20251113190136_ModeloCompleto.cs",
+              "RelativeToolTip": "Migrations\\20251113190136_ModeloCompleto.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:17:22.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoCheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\ProductoCheckoutDTO.cs",
+              "RelativeDocumentMoniker": "Models\\ProductoCheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\ProductoCheckoutDTO.cs",
+              "RelativeToolTip": "Models\\ProductoCheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:09:18.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistroDto.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\RegistroDto.cs",
+              "RelativeDocumentMoniker": "Models\\RegistroDto.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\RegistroDto.cs",
+              "RelativeToolTip": "Models\\RegistroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:42:58.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:36:09.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T19:39:08.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PedidoDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoDetalle.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoDetalle.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoDetalle.cs",
+              "RelativeToolTip": "Models\\PedidoDetalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T11:53:22.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PedidoDetalleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoDetalleDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoDetalleDTO.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoDetalleDTO.cs",
+              "RelativeToolTip": "Models\\PedidoDetalleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:14:34.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PedidoResumenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoResumenDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoResumenDTO.cs",
+              "ToolTip": "C:\\Users\\NattN\\Documents\\TFG\\ProyectoJoyeria\\backend\\Models\\PedidoResumenDTO.cs",
+              "RelativeToolTip": "Models\\PedidoResumenDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:14:48.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+$prefix: aaru;
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script:wght@400..700&family=Hurricane&family=Mrs+Saint+Delafield&display=swap');
+
+:root {
+  --#{$prefix}body-font-family: 'Mrs Saint Delafield Display', serif;
+}
+
+body {
+  font-family: var(--#{$prefix}body-font-family);
+  margin: 0;
+  padding: 0;
+  color:  #bfa133;
+  background-color: #fff;
+}
+
+.aaru-footer p {
+  text-align: center;
+  font-weight: 700;
+  color: #5c4c2d;
+  margin-top: 0.4rem;
+}
+
+.aaru-footer a {
+  color: #5c4c2d !important;
+  text-decoration: none !important;
+  font-weight: 500;
+}
+
+.aaru-footer a:visited {
+  color: #5c4c2d !important;
+}
+
+.aaru-footer a:hover {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+.aaru-footer a:focus,
+.aaru-footer a:active {
+  color: #bfa133 !important;
+  outline: none;
+}
+
+.social-icons {
+  margin: 0.3rem;
+  display: flex;
+  gap: 30.4rem;
+}
+
+.social-icons a:hover {
+  color: #bfa133 !important;
+}
+
+
+
+
+
+
+

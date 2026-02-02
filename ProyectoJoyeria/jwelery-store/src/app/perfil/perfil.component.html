@@ -1,0 +1,100 @@
+<div class="perfil-container">
+  <div class="perfil-card">
+    <!-- Foto de perfil -->
+    <div class="perfil-foto">
+      <img src="/assets/img/aaru-perfil.png" alt="Foto de perfil de Natalia">
+    </div>
+
+    <h2 class="perfil-title">Mi Perfil</h2>
+
+    <!--Info-->
+    @if (!editMode) {
+    <div class="perfil-info">
+      <p><strong>Nombre:</strong> {{ usuario.nombre }}</p>
+      <p><strong>Email:</strong> {{ usuario.email }}</p>
+
+      <button type="button" class="btn-gold" (click)="activarEdicion()">Editar perfil</button>
+      <button type="button" class="btn-secondary" (click)="cerrarSesion()">Cerrar sesión</button>
+    </div>
+    } @else {
+
+    <!--Info editable-->
+    <form (ngSubmit)="guardarCambios()" class="perfil-form">
+      <label>Nombre</label>
+      <input [(ngModel)]="usuario.nombre" name="nombre" required />
+
+      <label>Email</label>
+      <input [(ngModel)]="usuario.email" name="email" required />
+
+      
+      <label>Contraseña</label>
+      <input [(ngModel)]="usuario.password" name="contraseña" required />
+
+      
+
+      <button type="submit" class="btn-gold">Guardar cambios</button>
+      <button type="button" class="btn-secondary" (click)="editMode=false">Cancelar</button>
+    </form>
+    }
+
+    <!--Historial de pedidos-->
+    <div class="perfil-pedidos">
+      <h3>Historial de pedidos</h3>
+      <table class="tabla-pedidos">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Fecha</th>
+            <th>Total</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pedido of pedidos">
+            <td>{{ pedido.id }}</td>
+            <td>{{ pedido.fecha | date:'short' }}</td>
+            <td>{{ pedido.total | currency:'EUR' }}</td>
+            <td>
+              <span [ngClass]="{
+                'estado-pendiente': pedido.estado === 'Pendiente',
+                'estado-enviado': pedido.estado === 'Enviado',
+                'estado-entregado': pedido.estado === 'Entregado'
+              }">
+                {{ pedido.estado }}
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!--Detalle del pedido seleccionado-->
+    <div class="detalle-pedido-container" *ngIf="detallePedido">
+      <h3>Detalle del pedido #{{ detallePedido.pedidoId }}</h3>
+      <p><strong>Fecha:</strong> {{ detallePedido.fecha | date: 'short' }}</p>
+      <p><strong>Total:</strong> {{ detallePedido.totalPedido | currency: 'EUR' }}</p>
+      <p><strong>Estado:</strong> {{ detallePedido.estado }}</p>
+
+      <h4>Productos</h4>
+      <table class="tabla-productos">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Prrecio Unitario</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let prod of detallePedido.productos">
+            <td>{{ prod.nombreProducto }}</td>
+            <td>{{ prod.precioUnitario | currency:'EUR' }}</td>
+            <td>{{ prod.cantidad }}</td>
+            <td>{{ prod.subtotal | currency:'EUR' }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>

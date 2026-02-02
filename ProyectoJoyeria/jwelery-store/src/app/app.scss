@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bfa14c;
+  color: #5c4c2d;
+  padding: 0rem 2rem;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  h1 {
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      color: #5c4c2d;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: url('/assets/img/aaru-banner.png');
+  background-size: 14%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fdfdfc;
+  border-radius: 0px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #bfa14c;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.6rem 1.4rem;
+    background-color: #bfa14c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #a88e3c;
+    }
+  }
+
+
+}
+
+.perfil-link {
+  font-size: 1rem;
+}
+

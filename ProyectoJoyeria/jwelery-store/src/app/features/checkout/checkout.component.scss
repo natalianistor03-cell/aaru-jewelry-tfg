@@ -1,0 +1,236 @@
+.checkout-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(to bottom right, #fff8e1, #fceabb);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  animation: fadeIn 0.8s ease-in;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.checkout-form input,
+.checkout-form select,
+.checkout-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fffdf5;
+  color: #5c4c2d;
+  transition: box-shadow 0.3s ease;
+}
+
+.checkout-form input:focus,
+.checkout-form select:focus,
+.checkout-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+.checkout-form label {
+  font-weight: 600;
+  color: #5c4c2d;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.checkout-form .gift-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+
+  .gift-label {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-weight: 600;
+    color: #5c4c2d;
+    cursor: pointer;
+  }
+
+  input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    accent-color: #d4af37;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 0 5px rgba(212, 175, 55, 0.4);
+    }
+  }
+
+  span {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+.checkout-form .gift-note-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.6s ease-in-out;
+  margin-bottom: 1rem;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+
+  &.visible {
+    max-height: 400px;
+    opacity: 1;
+    transform: translateY(0);
+    padding: 1rem;
+    background: url('https://www.transparenttextures.com/patterns/paper-fibers.png') repeat;
+    border-radius: 12px;
+    border: 1px solid #d4af37;
+    box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.2);
+  }
+
+  label {
+    font-weight: 600;
+    color: #5c4c2d;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fffdf5;
+    color: #5c4c2d;
+    resize: vertical;
+    font-family: 'Playfair Display', serif;
+    transition: box-shadow 0.3s ease;
+  }
+
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+
+  .char-count {
+    text-align: right;
+    font-size: 0.85rem;
+    color: #a88e3c;
+    margin-top: 0.3rem;
+  }
+}
+
+.checkout-form .transfer-info {
+  font-size: 0.95rem;
+  color: #7a6a3c;
+  background-color: #fffbe6;
+  padding: 0.75rem;
+  border-left: 4px solid #d4af37;
+  border-radius: 6px;
+}
+
+.checkout-form .paypal-info {
+  font-size: 0.95rem;
+  color: #7a6a3c;
+  background-color: #fffbe6;
+  padding: 0.75rem;
+  border-left: 4px solid #d4af37;
+  border-radius: 6px;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+.btn-gold:hover {
+  background-color: #bfa133;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.checkout-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.checkout-options button {
+  background-color: #d4af37;       
+  color: #fff;                     
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.checkout-options button:hover {
+  background-color: #b9962e;
+  transform: translateY(-2px);
+}
+
+.checkout-options button:hover {
+  transform: scale(0.97);
+}
+
+.perfil-box {
+  background-color: #fdfdfd;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.perfil-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #5c4c2d;
+  letter-spacing: 0.5px;
+}
+
+.invitado-box {
+  background-color: #fdfdfd;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.invitado-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #5c4c2d;
+  letter-spacing: 0.5px;
+}

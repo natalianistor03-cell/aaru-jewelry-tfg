@@ -1,0 +1,89 @@
+<h2 class="text-center mb-4">Finalizar compra</h2>
+
+<form (ngSubmit)="confirmPurchase()" #form="ngForm" class="checkout-form">
+
+  <div class="checkout-options">
+    <button type="button" (click)="usarPerfil()">Comprar con mi perfil</button>
+    <button type="button" (click)="usarInvitado()">Comprar como invitado</button>
+  </div>
+
+  @if (modo === 'perfil') {
+    <p class="perfil-text perfil-box">Usando datos guardados del perfil.</p>
+  }
+
+  @if (modo === 'invitado') {
+    <p class="invitado-text invitado-box">Introduce tus datos manualmente para Comprar como invitado</p>
+  }
+
+  <!-- Datos del cliente -->
+  <input type="text" name="name" [(ngModel)]="name" placeholder="Nombre" required>
+  <input type="text" name="address" [(ngModel)]="address" placeholder="Dirección de envío" required>
+  <input type="email" name="email" [(ngModel)]="email" placeholder="Correo electrónico" required>
+  <input type="tel" name="phone" [(ngModel)]="phoneNumber" placeholder="Teléfono de contacto" required>
+
+  <!-- Preferencias de entrega -->
+  <select name="shippingType" [(ngModel)]="shippingType" required>
+    <option value="" disabled selected>Tipo de envío</option>
+    <option value="estandar">Estándar (gratis)</option>
+    <option value="express">Express (24h)</option>
+  </select>
+
+  <input type="date" name="deliveryDate" [(ngModel)]="deliveryDate" placeholder="Fecha deseada de entrega">
+
+  <!-- Check regalo -->
+   <div class="form-group gift-toggle">
+    <label class="gift-toggle">
+      <input type="checkbox" name="isGift" [(ngModel)]="isGift">
+      <span>¿Es un regalo?</span>
+    </label>
+  </div>
+
+  <!--Contenedor animado-->
+  @if (isGift) {
+  <div class="gift-note-wrapper" [class.visible]="isGift">
+  <label for="giftNote">Dedicatoria o nota para el artesano:</label>
+  <textarea id="giftNote" name="giftNote" [(ngModel)]="giftNote" rows="3" maxlength="200"></textarea>
+  <div class="char-count">{{ giftNote.length || 0 }}/200</div>
+</div>
+  }
+
+
+  <!-- Simulación de pago -->
+  <select name="paymentMethod" [(ngModel)]="paymentMethod" required>
+    <option value="" disabled selected>Selecciona método de pago</option>
+    <option value="card">Tarjeta de crédito</option>
+    <option value="paypal">PayPal</option>
+    <option value="bizum">Bizum</option>
+    <option value="transferencia">Transferencia</option>
+  </select>
+
+  <!-- Tarjeta -->
+   @if (paymentMethod === 'card') {
+  <input name="cardNumber" [(ngModel)]="cardNumber" placeholder="Número de tarjeta" required>
+  <input name="cardName" [(ngModel)]="cardName" placeholder="Nombre en la tarjeta" required>
+  <input name="cardName" [(ngModel)]="cardName" placeholder="CVV" required>
+   }
+
+  <!--PayPal-->
+  @if (paymentMethod === 'paypal') {
+  <p class="paypal-info">
+    Continua con el pago en la app de PayPal
+  </p>
+  }
+
+  <!-- Bizum -->
+   @if (paymentMethod === 'bizum') {
+  <input name="phoneNumber" [(ngModel)]="phoneNumber" placeholder="Número de teléfono" required>
+   }
+
+  <!-- Transferencia -->
+   @if (paymentMethod === 'tranferencia') {
+  <p class="transfer-info">
+    Recibirás los datos bancarios por correo tras confirmar el pedido.
+  </p>
+  }
+
+  <button type="submit" class="btn btn-gold mt-4">Confirmar pedido</button>
+</form>
+
+

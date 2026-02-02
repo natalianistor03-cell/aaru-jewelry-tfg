@@ -1,0 +1,39 @@
+<!-- Contendor del carrito -->
+<div class="cart-wrapper">
+  <h2 class="cart-title">🛒 Tu selección dorada</h2>
+
+<!-- Carrito vacio / Enlace para redirigirse a productos -->
+  <div *ngIf="cartItems.length === 0" class="cart-empty">
+    <p>Tu carrito está vacío… pero el lujo te espera.</p>
+    <a routerLink="/productos" class="btn-gold">Explorar colección</a>
+  </div>
+
+<!-- Carrito con productos / Info productos del carrito -->
+  <div *ngIf="cartItems.length > 0" class="cart-content">
+    <ul class="cart-list">
+      <li *ngFor="let item of cartItems" class="cart-item">
+        <span class="item-name">{{ item.name }}</span>
+        <span class="item-price">{{ item.price | currency:'EUR' }}</span>
+        <span class="item-size" *ngIf="item.size">Talla: {{ item.size }}</span>
+
+        <input type="number" [(ngModel)]="item.quantity"
+        (change)="cartService.updateQuantity(item.id, item.quantity!)" 
+        min="1" class="quantity-input"/>
+      </li>
+    </ul>
+
+<!--Total-->
+    <div class="cart-total">
+      <strong>Total:</strong>
+      <span>{{ getTotal() | currency:'EUR' }}</span>
+    </div>
+
+<!-- Botones para vaciar o comprar -->
+    <div class="cart-actions">
+      <button (click)="clearCart()" class="btn-clear">Vaciar carrito</button>
+      <button class="btn btn-gold" routerLink="/checkout">Finalizar compra</button>
+    </div>
+  </div>
+</div>
+
+

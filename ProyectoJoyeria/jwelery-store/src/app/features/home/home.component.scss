@@ -1,0 +1,75 @@
+.hero-banner {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #5c4c2d;
+}
+
+.hero-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120vw;
+  height: 120vw;
+  transform: translate(-50%, -50%);
+  background-image: url('/assets/img/hero-banner2.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  animation: spinSlow 120s linear infinite;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+@keyframes spinSlow {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.rotating-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d4af37;
+  margin-bottom: 1rem;
+  transition: opacity 0.5s ease;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-gold {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background-color: #bfa14c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #a88e3c;
+  }
+}
+
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

@@ -1,0 +1,77 @@
+<!--Registro-->
+<div class="auth-container">
+  <div class="auth-card">
+  <h2 class="auth-title">Registro</h2>
+  
+  <!--Formulario-->
+  <form (ngSubmit)="onSubmit()" #registroForm="ngForm" class="auth-form">
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input 
+        type="text" 
+        id="nombre" 
+        name="nombre" 
+        [(ngModel)]="usuario.nombre" 
+        placeholder="Nombre" 
+        autocomplete="given-name"
+        required>
+    </div>
+
+    <div class="form-group">
+      <label for="apellido">Apellido</label>
+      <input 
+        type="text" 
+        id="apellido" 
+        name="apellido" 
+        [(ngModel)]="usuario.apellido" 
+        placeholder="Apellido" 
+        autocomplete="family-name"
+        required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        [(ngModel)]="usuario.email" 
+        placeholder="Email" 
+        autocomplete="email"
+        required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Contraseña</label>
+      <input 
+        type="password" 
+        id="password" 
+        name="password" 
+        [(ngModel)]="usuario.passwordHash" 
+        placeholder="Contraseña" 
+        autocomplete="new-password"
+        minlength="6"
+        required>
+    </div>
+
+      <div class="form-group">
+      <label for="confirmPassword">Repite la contraseña</label>
+      <input 
+        type="confirmPassword" 
+        id="confirmPassword" 
+        name="confirmPassword" 
+        [(ngModel)]="confirmPassword" 
+        placeholder="Repite la contraseña" 
+        autocomplete="new-password"
+        required>
+    </div>
+    
+    <div class="normas-registro">
+      <p>La contraseña debe tener mínimo 6 caracteres, una letra mayúscula y un carácter especial (!@#$%^&*...)</p>
+      <p>Deben coincidir ambos campos</p>
+    </div>
+<!--Enviar datos-->
+      <button type="submit" class="btn-primary">Registrarse</button>
+    </form>
+  </div>
+</div>

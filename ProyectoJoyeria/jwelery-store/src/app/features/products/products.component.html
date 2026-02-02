@@ -1,0 +1,89 @@
+<h2 class="mb-5 text-center text-uppercase fw-bold">Catálogo de Productos</h2>
+
+<div class="catalog-layout">
+  <!-- Sidebar de filtros -->
+  <aside class="filter-sidebar">
+    <div class="filter-panel p-4 shadow-sm rounded">
+      <h4 class="text-gold text-uppercase fw-bold mb-4 text-center">Filtros</h4>
+
+      <!-- Categoría -->
+      <div class="mb-3">
+        <label class="form-label fw-semibold text-gold">Categoría</label>
+        <select class="form-select" [(ngModel)]="selectedCategory">
+          <option value="">Todas</option>
+          <option value="anillos">Anillos</option>
+          <option value="pulseras">Pulseras</option>
+          <option value="collares">Collares</option>
+        </select>
+      </div>
+
+      <!-- Piedra -->
+      <div class="mb-3">
+        <label class="form-label fw-semibold text-gold">Piedra</label>
+        <select class="form-select" [(ngModel)]="selectedStone">
+          <option value="">Todas</option>
+          <option value="diamantes">Diamantes</option>
+          <option value="zafiro">Zafiro</option>
+          <option value="rubí">Rubí</option>
+          <option value="aguamarina">Aguamarina</option>
+          <option value="esmeralda">Esmeralda</option>
+        </select>
+      </div>
+
+      <!-- Material -->
+      <div class="mb-3">
+        <label class="form-label fw-semibold text-gold">Material</label>
+        <select class="form-select" [(ngModel)]="selectedMaterial">
+          <option value="">Todos</option>
+          <option value="oro amarillo">Oro amarillo</option>
+          <option value="oro blanco">Oro blanco</option>
+        </select>
+      </div>
+
+      <!-- Rango de precios -->
+      <div class="mt-4">
+        <label class="form-label fw-semibold text-gold">Rango de precios</label>
+        <ngx-slider 
+          [(value)]="minPrice" 
+          [(highValue)]="maxPrice" 
+          [options]="priceOptions">
+        </ngx-slider>
+
+        <p class="text-muted text-center mt-2">
+          Mostrando productos entre <span class="text-gold fw-bold">{{ minPrice }} €</span> y <span class="text-gold fw-bold">{{ maxPrice }} €</span>
+        </p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Catálogo de productos -->
+  <section class="product-grid">
+    <div *ngIf="filteredProducts.length === 0" class="alert alert-warning text-center fw-semibold">
+      No se han encontrado productos con los filtros seleccionados.
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-5" *ngFor="let p of filteredProducts">
+        <div class="card h-100 shadow-sm border-0 product-card">
+          <img [src]="p.image" class="card-img-top product-image" [ngClass]="p.customClass" alt="{{p.name}}">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">{{ p.name }}</h5>
+            <p class="card-text text-gold fs-5">{{ p.price | currency:'EUR' }}</p>
+            <p class="card-text text-muted fs-6">{{ p.description }}</p>
+
+            <div *ngIf="p.sizes?.length" class="mb-3">
+              <label class="form-label fw-semibold">Talla:</label>
+              <select class="form-select" [(ngModel)]="selectedSizes[p.id]">
+                <option *ngFor="let size of p.sizes" [value]="size">{{ size }}</option>
+              </select>
+            </div>
+
+            <button class="btn btn-gold" (click)="addToCart(p, selectedSizes[p.id], $event)">
+              Agregar al carrito
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

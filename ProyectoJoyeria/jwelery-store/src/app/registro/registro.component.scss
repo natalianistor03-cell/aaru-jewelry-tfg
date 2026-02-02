@@ -1,0 +1,134 @@
+// Paleta
+$gold: #d4af37;
+$dark: #1a1a1a;
+$light: #f9f9f9;
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/assets/img/hero-banner1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: 'Playfair Display', serif;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+}
+
+.auth-card {
+  position: relative;
+  z-index: 1;
+  background: rgba($light, 0.95);
+  padding: 0.75rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-title {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #d4af37;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8;
+  padding: 1rem 2.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  
+  label {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $gold;
+  margin-bottom: 0.2rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  }
+
+  input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border 0.3s ease;
+
+    &:focus {
+    border-color: $gold;
+    outline: none;
+    }
+  }
+}
+
+
+.btn-primary {
+  background: linear-gradient(120deg, $gold 0%, lighten($gold, 15%) 50%, $gold 100%);
+  background-size: 200% auto;
+  color: $dark;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 1rem;
+
+  &:hover {
+    animation: shine 1.2s linear infinite;
+    transform: translate(-2px);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.normas-registro {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba($gold, 0.1);
+  border-left: 3px solid $gold;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: $dark;
+}
+
+@keyframes shine {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@media (max-width: 768px) {
+  .auth-form {
+    padding: 2rem;
+    max-width: 90%;
+  }
+
+  .auth-title {
+    font-size: 1.6rem;
+  }
+}
+
